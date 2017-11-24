@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+input[type=submit] {
+	padding:3px 15px; 
+	background-color:#16891f;
+	color:white; 
+	border:1px solid black;
+    cursor:pointer;
+    border-radius:15px;
+    float:right;
+}
+

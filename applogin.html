@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<link rel="stylesheet" href="css/main.css"></link>
+<link rel="stylesheet" href="css/ado.css"></link>
+</head>
+<body>
+<nav>
+<div class="dropdown">
+  <button class="dropbtn">Application</button>
+  <div class="dropdown-content">
+    <a href="application.jsp">Application</a>
+    <a href="applogin.html">Administration</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Database</button>
+  <div class="dropdown-content">
+    <a href="database.jsp">Database</a>
+    <a href="dblogin.html">Administration</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Servers</button>
+  <div class="dropdown-content">
+    <a href="server.jsp">Servers</a>
+    <a href="login.html">Administration</a>
+  </div>
+</div>
+</nav>
+
+    <div align="center">
+    <br>
+    	<h4>Login for Application contact administration</h4>
+        
+        <form action="appadminlogin" method="post">
+            Username: <input type="text" placeholder="Username" name="adoUser"><br> 
+            Password : <input type="password" placeholder="********" name="adoPassword"><br> <br> 
+            <input type="submit" value="Login" />
+        </form>
+    </div>
+
+</body>
+</html>

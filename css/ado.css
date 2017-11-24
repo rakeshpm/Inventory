@@ -1,0 +1,153 @@
+@CHARSET "ISO-8859-1";
+
+
+form{
+	clear:both;
+	margin-top:40px;
+	padding-left:30px;
+	padding-bottom:20px;
+	
+}
+nav{
+margin-top:5px;
+	}
+
+.styled-select{
+	border-radius:10px;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	width:120px;
+}
+
+.dropbtn {
+    background-color: #494949;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    width: 160px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left:20px;
+        
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align:center;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+   }
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 17px;
+    text-decoration: none;
+    display: block;
+    align:center;
+}
+
+.dropdown-content a:hover {
+	background-color: #D3D3D3;
+	width: 125px;
+	border-radius: 10px;
+	color:#b31e22;
+	}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin-left:20px;
+    background-color: #98b7f1;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #008000;
+    width: 160px;
+	border-radius: 25px;
+}
+
+.maincontent{
+	background-color:#f7f7f7;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	border-radius:20px;
+	padding:20px 10px;
+	margin:20px;
+}
+
+.contents{
+	background-color:#f7f7f7;
+	float:left;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	border-radius:20px;
+	padding:10px;
+	margin:20px;
+}
+
+.servercontent{
+	background-color:#f7f7f7;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	border-radius:20px;
+	padding:20px 10px;
+	margin:20px;
+}
+
+.disksp{
+	background-color:#f7f7f7;
+	float:left;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	border-radius:20px;
+	padding:10px;
+	margin:15px;
+	text-align:center;
+}
+
+td{
+	margin:20px;
+	padding-left:30px;
+}
+
+input[type=text] {
+	padding:2px; 
+	border:2px solid #ccc; 
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=text]:focus {
+	border-color:#333; 
+	}
+
+input[type=password] {
+	padding:2px; 
+	border:2px solid #ccc; 
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=password]:focus {
+	border-color:#333; 
+	}
+	
+input[type=submit] {
+	padding:3px 15px; 
+	background-color:#16891f;
+	color:white; 
+	border:1px solid black;
+    cursor:pointer;
+    border-radius:15px;
+}

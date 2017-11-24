@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#dddddd;
+}
+
+header{
+	text-align:center;
+	background-color:#b31e22;
+	color:white;
+	font-family:Georgia;
+	font-size:18px;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+iframe{
+	margin:0px;
+	padding:0px;
+	border:none;
+	height:89%;
+}
+
+.appdbsrv{
+	width:75%;
+}
+
+.hosts{
+	width:24%;
+}
+
+footer{
+	display:block;
+	background-color:#dddddd;
+	font-size:14px;
+	text-align:center;
+	color:black;
+}

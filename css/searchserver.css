@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+input[type=submit] {
+	padding:3px 15px; 
+	background-color:#16891f;
+	color:white; 
+	border:1px solid black;
+    cursor:pointer;
+    margin-left:110px;
+    border-radius:15px;
+    
+}	
+
+.custom-dropdown {
+ -webkit-appearance: none;  /*REMOVES DEFAULT CHROME & SAFARI STYLE*/
+ -moz-appearance: none;  /*REMOVES DEFAULT FIREFOX STYLE*/
+ border: 0 !important;  /*REMOVES BORDER*/
+ color: #ffffff;
+ font-size: 16px;
+ border-radius:17px;
+ cursor: pointer;
+ background: #6c6c7d;
+ padding:20px;
+ }
+
+.maincontent{
+	text-align:center;
+	background-color:#f7f7f7;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	border-radius:20px;
+	margin-left:5px;
+	
+}
+.styled-select{
+	border-radius:10px;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	width:120px;
+}
+
